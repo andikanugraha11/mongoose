@@ -9,6 +9,7 @@
   "author": "Andika Nugraha",
   "license": "ISC",
   "dependencies": {
+    "bluebird": "^3.5.0",
     "mongoose": "^4.8.6"
   }
 }

@@ -1,4 +1,4 @@
-var mongoose	= require('mongoose');
-var database	= "mongodb://localhost:27017/cobaMongoose";
-
+var mongoose		= require('mongoose');
+mongoose.Promise 	= global.Promise;
+var database		= "mongodb://localhost:27017/cobaMongoose";
 mongoose.connect(database);
