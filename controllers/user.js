@@ -31,6 +31,16 @@ router.get('/save', function(req, res){
 	});
 });
 
+router.get('/show', function(req,res){
+	User.find({}, function(err,docs){
+		if(err){
+			console.log('error');
+		}else{
+			res.json(docs);
+			console.log(docs);
+		}
+	});
+});
 
 
 
